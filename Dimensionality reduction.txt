@@ -1,0 +1,18 @@
+Question : What is Dimension reduction ?
+
+Dimensionality reduction is the reduction in the number of dimension of input variables used to train the model.
+So to sum up, the idea of dimension reduction is simple — reduce the number of variables of a data set, while 
+preserving as much information as possible. One of the popular dimensionality reduction technique is PCA(Principle Component Analysis).
+Before applying dimensionality reduction one thing is very important i.e Standardization, because the variable with large range(ex 0-100)
+dominate over variable with small range(ex 0-1).
+
+Advantages of Dimension reduction :
+-> Easier to Explore and visualize the Data.
+-> Making Computation Faster for MAchine learning algorithm.
+-> Remove redundant features.
+-> Take less storage space.
+
+Disadvantages of Dimension reduction :
+
+->Loss of data, sometime which lead to bad accuracy.
+->Some time the linear correlation between variable are undesirable.
